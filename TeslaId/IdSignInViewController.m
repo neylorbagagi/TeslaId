@@ -11,6 +11,7 @@
 
 @interface IdSignInViewController () <GIDSignInDelegate, GIDSignInUIDelegate>
 @property IdEmailSignInViewController *idEmailSignInView;
+@property FirebaseHandle *handle;
 - (IBAction)emailSignIn:(id)sender;
 - (IBAction)googleSignIn:(id)sender;
 - (IBAction)facebookSignIn:(id)sender;
@@ -26,6 +27,20 @@
 	GIDSignIn *googleSignIn = [GIDSignIn sharedInstance];
 	[googleSignIn setDelegate:self];
 	[googleSignIn setUiDelegate:self];
+	
+}
+
+-(void)viewDidAppear:(BOOL)animated{
+
+	if (_firebase.authData) {
+		// user authenticated
+		NSLog(@"IdSignInView says: %@", _firebase.authData);
+		[self dismissViewControllerAnimated:NO completion:nil];
+		
+	} else {
+		// No user is signed in
+		NSLog(@"IdSignInView says: No user is signed in");
+	}
 	
 }
 

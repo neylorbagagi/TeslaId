@@ -26,12 +26,14 @@
 	_firebase = [[Firebase alloc] initWithUrl:@"https://teslaid.firebaseio.com"];
 	
 	
+	
 	[[GIDSignIn sharedInstance] signOut];
 
 	FBSDKLoginManager *facebookLogin = [[FBSDKLoginManager alloc] init];
 	[facebookLogin logOut];
 
 	[_firebase unauth];
+
 	
 
 }
@@ -39,7 +41,8 @@
 - (void)viewDidAppear:(BOOL)animated{
 	
 	if (_firebase.authData) {
-		NSLog(@"Logged: %@",_firebase.authData);
+		NSLog(@"Root View Says: %@",_firebase.authData);
+		//[self performSegueWithIdentifier:@"YOUR-SEGUE" sender:self]; // Perform segue to app home
 	}else{
 		_idSignInView = [[IdSignInViewController alloc]init]; // instance IdSignInViewControllet
 		[_idSignInView setFirebase:_firebase];				  // Set Firebase instance to view

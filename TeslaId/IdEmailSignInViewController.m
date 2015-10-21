@@ -26,8 +26,23 @@
 	
 	[_emailSignInTextField setDelegate:self];
 	[_passwordSignInTextField setDelegate:self];
+
 	
 }
+
+-(void)viewDidAppear:(BOOL)animated{
+	
+	if (_firebase.authData) {
+		// user authenticated
+		NSLog(@"IdEmailSignIn says: %@", _firebase.authData);
+		[self dismissViewControllerAnimated:NO completion:nil];
+
+	} else {
+		// No user is signed in
+			NSLog(@"IdEmailSignIn says: No user is signed in");
+	}
+}
+
 
 - (BOOL)textFieldShouldReturn:(UITextField *)textField{
 	
@@ -44,7 +59,7 @@
 				[alert show];
 			} else {
 				// We are now logged in
-				NSLog(@"Successfully logged in! %@", authData);
+				NSLog(@"IdEmailSignIn view says: %@", authData);
 				[self dismissViewControllerAnimated:YES completion:nil];
 			}
 		}];
@@ -74,7 +89,6 @@
 	[_idEmailSignUpView setFirebase:_firebase];						// Set Firebase instance to view
 	[_idEmailSignUpView setModalInPopover:YES];						// Set presentation for PopUp style
 	[self presentViewController:_idEmailSignUpView animated:YES completion:nil]; // present _idEmailSignUpView
-
 }
 
 - (IBAction)forgotPassword:(id)sender {

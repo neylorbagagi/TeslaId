@@ -21,6 +21,7 @@
 	
 	[[FBSDKApplicationDelegate sharedInstance] application:application didFinishLaunchingWithOptions:launchOptions];
 	//return [[FBSDKApplicationDelegate sharedInstance] application:application didFinishLaunchingWithOptions:launchOptions];
+
 	
 	return YES;
 }
@@ -36,7 +37,6 @@
 		return [[GIDSignIn sharedInstance] handleURL:url
 								   sourceApplication:sourceApplication
 										  annotation:annotation];
-
 	}
 }
 
