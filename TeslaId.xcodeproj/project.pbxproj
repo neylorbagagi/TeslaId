@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B8F65BD7E3EE6C19A87C04E4 /* libPods-TeslaId.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B2EDD29B9A98F8F0991EA6C0 /* libPods-TeslaId.a */; };
 		F09D3D4C1BCD792D0015F1D6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F09D3D4B1BCD792D0015F1D6 /* main.m */; };
 		F09D3D4F1BCD792D0015F1D6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F09D3D4E1BCD792D0015F1D6 /* AppDelegate.m */; };
 		F09D3D521BCD792D0015F1D6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F09D3D511BCD792D0015F1D6 /* ViewController.m */; };
@@ -15,13 +14,13 @@
 		F09D3D571BCD792D0015F1D6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F09D3D561BCD792D0015F1D6 /* Images.xcassets */; };
 		F09D3D5A1BCD792D0015F1D6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F09D3D581BCD792D0015F1D6 /* LaunchScreen.xib */; };
 		F09D3D661BCD792D0015F1D6 /* TeslaIdTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F09D3D651BCD792D0015F1D6 /* TeslaIdTests.m */; };
-		F0AB45801BD6594A004AE763 /* IdSignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0AB457E1BD6594A004AE763 /* IdSignInViewController.m */; settings = {ASSET_TAGS = (); }; };
-		F0AB45811BD6594A004AE763 /* IdSignInViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0AB457F1BD6594A004AE763 /* IdSignInViewController.xib */; settings = {ASSET_TAGS = (); }; };
-		F0AB45861BD65F2C004AE763 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F0AB45851BD65F2C004AE763 /* GoogleService-Info.plist */; settings = {ASSET_TAGS = (); }; };
-		F0AB458A1BD6CCFF004AE763 /* IdEmailSignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0AB45881BD6CCFF004AE763 /* IdEmailSignInViewController.m */; settings = {ASSET_TAGS = (); }; };
-		F0AB458B1BD6CCFF004AE763 /* IdEmailSignInViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0AB45891BD6CCFF004AE763 /* IdEmailSignInViewController.xib */; settings = {ASSET_TAGS = (); }; };
-		F0AB458F1BD7C54F004AE763 /* IdEmailSignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0AB458D1BD7C54F004AE763 /* IdEmailSignUpViewController.m */; settings = {ASSET_TAGS = (); }; };
-		F0AB45901BD7C54F004AE763 /* IdEmailSignUpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0AB458E1BD7C54F004AE763 /* IdEmailSignUpViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		F0AB45801BD6594A004AE763 /* IdSignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0AB457E1BD6594A004AE763 /* IdSignInViewController.m */; };
+		F0AB45811BD6594A004AE763 /* IdSignInViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0AB457F1BD6594A004AE763 /* IdSignInViewController.xib */; };
+		F0AB45861BD65F2C004AE763 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F0AB45851BD65F2C004AE763 /* GoogleService-Info.plist */; };
+		F0AB458A1BD6CCFF004AE763 /* IdEmailSignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0AB45881BD6CCFF004AE763 /* IdEmailSignInViewController.m */; };
+		F0AB458B1BD6CCFF004AE763 /* IdEmailSignInViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0AB45891BD6CCFF004AE763 /* IdEmailSignInViewController.xib */; };
+		F0AB458F1BD7C54F004AE763 /* IdEmailSignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0AB458D1BD7C54F004AE763 /* IdEmailSignUpViewController.m */; };
+		F0AB45901BD7C54F004AE763 /* IdEmailSignUpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0AB458E1BD7C54F004AE763 /* IdEmailSignUpViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +34,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		49E16AAC67F1DB22B1CC0E03 /* Pods-TeslaId.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeslaId.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TeslaId/Pods-TeslaId.debug.xcconfig"; sourceTree = "<group>"; };
-		B2EDD29B9A98F8F0991EA6C0 /* libPods-TeslaId.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TeslaId.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E4EAD978059592FDDF17A531 /* Pods-TeslaId.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeslaId.release.xcconfig"; path = "Pods/Target Support Files/Pods-TeslaId/Pods-TeslaId.release.xcconfig"; sourceTree = "<group>"; };
 		F09D3D461BCD792D0015F1D6 /* TeslaId.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TeslaId.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F09D3D4A1BCD792D0015F1D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F09D3D4B1BCD792D0015F1D6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -68,7 +64,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B8F65BD7E3EE6C19A87C04E4 /* libPods-TeslaId.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,31 +77,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		8E05C818467D46D2493DEBD9 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				49E16AAC67F1DB22B1CC0E03 /* Pods-TeslaId.debug.xcconfig */,
-				E4EAD978059592FDDF17A531 /* Pods-TeslaId.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		90202961BB583563CC2B9FDE /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				B2EDD29B9A98F8F0991EA6C0 /* libPods-TeslaId.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		F09D3D3D1BCD792D0015F1D6 = {
 			isa = PBXGroup;
 			children = (
 				F09D3D481BCD792D0015F1D6 /* TeslaId */,
 				F09D3D621BCD792D0015F1D6 /* TeslaIdTests */,
 				F09D3D471BCD792D0015F1D6 /* Products */,
-				8E05C818467D46D2493DEBD9 /* Pods */,
-				90202961BB583563CC2B9FDE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -458,7 +434,6 @@
 		};
 		F09D3D6A1BCD792D0015F1D6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 49E16AAC67F1DB22B1CC0E03 /* Pods-TeslaId.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -475,7 +450,6 @@
 		};
 		F09D3D6B1BCD792D0015F1D6 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E4EAD978059592FDDF17A531 /* Pods-TeslaId.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
