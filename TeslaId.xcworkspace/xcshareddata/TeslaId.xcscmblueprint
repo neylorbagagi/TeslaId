@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "49331A4315F5E71B440907BB564AAC56D3ACE158",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "49331A4315F5E71B440907BB564AAC56D3ACE158" : 0,
+    "836CF3B07F711069A2024B29925A567D4025AEC4" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "57E19328-977A-4C6C-9C7F-DE8DA06470A0",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "49331A4315F5E71B440907BB564AAC56D3ACE158" : "TeslaId\/",
+    "836CF3B07F711069A2024B29925A567D4025AEC4" : "..\/Tesla"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "TeslaId",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "TeslaId.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/neylor_bagagi\/teslaid.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "49331A4315F5E71B440907BB564AAC56D3ACE158"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/neylor_bagagi\/tesla.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "836CF3B07F711069A2024B29925A567D4025AEC4"
+    }
+  ]
+}

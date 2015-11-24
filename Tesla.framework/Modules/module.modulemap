@@ -1,0 +1,6 @@
+framework module Tesla {
+  umbrella header "Tesla.h"
+
+  export *
+  module * { export * }
+}

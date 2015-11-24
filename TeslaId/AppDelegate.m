@@ -15,14 +15,14 @@
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-	NSError* configureError;
+    /*
+    NSError* configureError;
 	[[GGLContext sharedInstance] configureWithError: &configureError];
 	NSAssert(!configureError, @"Error configuring Google services: %@", configureError);
-	
+     
 	//[[FBSDKApplicationDelegate sharedInstance] application:application didFinishLaunchingWithOptions:launchOptions];
 	//return [[FBSDKApplicationDelegate sharedInstance] application:application didFinishLaunchingWithOptions:launchOptions];
-
-	
+	*/
 	return YES;
 }
 
@@ -35,11 +35,13 @@
 														   annotation:annotation];
 
 	}else{
-     */
+
 		return [[GIDSignIn sharedInstance] handleURL:url
 								   sourceApplication:sourceApplication
 										  annotation:annotation];
 	//}
+    */
+    return  YES;
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {

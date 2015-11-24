@@ -7,8 +7,7 @@
 //
 
 #import "ViewController.h"
-#import <Firebase/Firebase.h>
-#import "IdSignInViewController.h"
+#import <Tesla/IdSignInViewController.h>
 
 @interface ViewController ()
 	@property IdSignInViewController *idSignInView;
@@ -21,15 +20,12 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
 	
-	
 	// settup
 	_firebase = [[Firebase alloc] initWithUrl:@"https://teslaid.firebaseio.com"];
 	[_firebase unauth];
 	
 	[[GIDSignIn sharedInstance] signOut];
     
-    
-
 	//FBSDKLoginManager *facebookLogin = [[FBSDKLoginManager alloc] init];
 	//[facebookLogin logOut];
 
