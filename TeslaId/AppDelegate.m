@@ -19,7 +19,7 @@
 	[[GGLContext sharedInstance] configureWithError: &configureError];
 	NSAssert(!configureError, @"Error configuring Google services: %@", configureError);
 	
-	[[FBSDKApplicationDelegate sharedInstance] application:application didFinishLaunchingWithOptions:launchOptions];
+	//[[FBSDKApplicationDelegate sharedInstance] application:application didFinishLaunchingWithOptions:launchOptions];
 	//return [[FBSDKApplicationDelegate sharedInstance] application:application didFinishLaunchingWithOptions:launchOptions];
 
 	
@@ -27,17 +27,19 @@
 }
 
 - (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation {
-	if ([url.scheme isEqualToString:@"fb1660679887513555"]) {
+	/*
+    if ([url.scheme isEqualToString:@"fb1660679887513555"]) {
 		return [[FBSDKApplicationDelegate sharedInstance] application:application
 															  openURL:url
 													sourceApplication:sourceApplication
 														   annotation:annotation];
 
 	}else{
+     */
 		return [[GIDSignIn sharedInstance] handleURL:url
 								   sourceApplication:sourceApplication
 										  annotation:annotation];
-	}
+	//}
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {

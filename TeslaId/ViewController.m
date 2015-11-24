@@ -24,17 +24,14 @@
 	
 	// settup
 	_firebase = [[Firebase alloc] initWithUrl:@"https://teslaid.firebaseio.com"];
-	
-	
+	[_firebase unauth];
 	
 	[[GIDSignIn sharedInstance] signOut];
+    
+    
 
-	FBSDKLoginManager *facebookLogin = [[FBSDKLoginManager alloc] init];
-	[facebookLogin logOut];
-
-	[_firebase unauth];
-
-	
+	//FBSDKLoginManager *facebookLogin = [[FBSDKLoginManager alloc] init];
+	//[facebookLogin logOut];
 
 }
 

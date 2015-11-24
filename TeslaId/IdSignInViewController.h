@@ -9,8 +9,8 @@
 #import <UIKit/UIKit.h>
 #import <Google/SignIn.h>
 #import <Firebase/Firebase.h>
-#import <FBSDKLoginKit/FBSDKLoginKit.h>
-#import <FBSDKCoreKit/FBSDKCoreKit.h>
+//#import <FBSDKLoginKit/FBSDKLoginKit.h>
+//#import <FBSDKCoreKit/FBSDKCoreKit.h>
 
 @interface IdSignInViewController : UIViewController
 	@property Firebase *firebase;

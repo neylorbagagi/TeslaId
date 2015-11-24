@@ -61,6 +61,7 @@
 }
 
 // Facebook SignIn process
+/*
 - (IBAction)facebookSignIn:(id)sender {
 	FBSDKLoginManager *facebookLogin = [[FBSDKLoginManager alloc] init];
 	[facebookLogin logInWithReadPermissions:@[@"email"] fromViewController:self
@@ -118,7 +119,7 @@
 	[facebookLogin logOut];
 	[_firebase unauth];
 }
-
+*/
 
 # pragma required GIDSignInDelegate methods
 - (void)signIn:(GIDSignIn *)signIn didSignInForUser:(GIDGoogleUser *)user withError:(NSError *)error {

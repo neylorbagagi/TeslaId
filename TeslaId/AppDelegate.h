@@ -9,8 +9,8 @@
 #import <UIKit/UIKit.h>
 #import <Firebase/Firebase.h>
 #import <Google/SignIn.h>
-#import <FBSDKCoreKit/FBSDKCoreKit.h>
-#import <FBSDKLoginKit/FBSDKLoginKit.h>
+//#import <FBSDKCoreKit/FBSDKCoreKit.h>
+//#import <FBSDKLoginKit/FBSDKLoginKit.h>
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
